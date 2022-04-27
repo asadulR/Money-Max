@@ -13,6 +13,12 @@ span {
     line-height: 28px;
     color: #1a1f36;
 }
+.login-btn{
+    transition: 0.5s;
+}
+.login-btn:hover{
+    background-color: #1a1f36;
+}
 .title-form{
     color: #5469D4;
     font-size: 2rem;
