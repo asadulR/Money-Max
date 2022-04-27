@@ -1,0 +1,24 @@
+.relative{
+   position: relative;
+}
+
+.jobs-page{
+    position: absolute;
+    top: 30%;
+    right: 44%;
+}
+.jobs-page h2{
+    font-size: 3rem;
+}
+.jobpage-link{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+}
+.jobpage-link:hover{
+    color: white;
+}
+.svg-img{
+    min-height: 200px;
+    width: auto;
+}
