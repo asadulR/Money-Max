@@ -1,0 +1,21 @@
+.home-container {
+    background-color: #F7F9FA;
+}
+
+.blog-icon{
+    width: 20px;
+    color: gray;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+.single-blog{
+
+    transition: 0.4s;
+}
+.single-blog:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+}
+.single-blog:hover h4 {
+    color: navy;
+}

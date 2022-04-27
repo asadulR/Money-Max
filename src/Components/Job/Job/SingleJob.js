@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Job.css'
 const SingleJob = ({job}) => {
     const {name,date, description, area, time, type} = job;
-    console.log(job)
+    // console.log(job)
     return (
         <div className='single-job p-4'>
             <h5 className='d-flex align-items-center justify-content-between'><span>{name}</span> <small className='fs-6 gray'>{date}</small></h5>
