@@ -11,7 +11,6 @@ const HomeTopBanner = () => {
                     <div className="col mb-5">
                         <h2 className='title'>Flexible home loans for the international lifestyle.</h2>
                         <p className='para'>Banca is the one you can rely that will support you all the way by offering Home Loan facilities.</p>
-
                         <button className='apply-btn'><Link className='link-deco d-flex' to='/'><span className='text-white me-3'>Apply Now</span> <span> <ArrowRightIcon className='arrow-icon text-white'></ArrowRightIcon></span></Link></button>
                     </div>
                     <div className="col text-center">
