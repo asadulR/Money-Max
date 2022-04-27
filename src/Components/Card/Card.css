@@ -24,7 +24,7 @@
     text-decoration: none;
     border-radius: 8px;
     font-weight: 700;
-    padding: 10px 26px;
+    padding: 15px 26px;
     font-size: 22px;
 }
 .top-btn:hover{
@@ -39,10 +39,34 @@
     transform: scale(1.2) rotate(-20deg);
 }
 
+.card-features{
+    padding: 100px 0;
+    background-color: #F7F9FA;
+}
 
-/* 
+.card-features h2{
+    width: 80%;
+    margin: auto;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
-
+.service-card img{
+    transition: 0.5px;
+    margin-bottom: 18px;
+}
+.service-card p{
+    color: gray;
+}
+.service-card{
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px 1px lightgray;
+    transition: 0.5s;
+}
+.service-card:hover{
+    box-shadow: 1px 1px 30px 1px rgb(122, 151, 180);
+    transform: scale(1.04);
+}
 @media only screen and (max-width:700px){
     .card-title{
         font-size: 2.5em;

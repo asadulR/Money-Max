@@ -1,4 +1,4 @@
-import './App.css';
+
 import Header from './Components/Shared/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
@@ -7,7 +7,7 @@ import Signup from './Components/Login/Signup/Signup';
 import Blog from './Components/Blog/Blog/Blog';
 import Job from './Components/Job/Job/Job';
 import Card from './Components/Card/Card';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
