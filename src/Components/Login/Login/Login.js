@@ -31,9 +31,9 @@ const Login = () => {
                             </div>
                         </form>
                     </div>
+                    <span className='fs-6 mt-5 text-center'><small>Don't have an account? <Link to="/signup">Signup</Link></small></span>
                 </div>
                 <div className="footer-link mt-3 padding-top--24">
-                    <span>Don't have an account? <Link to="/signup">Signup</Link></span>
                     <SocialLogin />
                 </div>
             </div>

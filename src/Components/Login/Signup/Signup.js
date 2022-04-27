@@ -29,9 +29,9 @@ const Signup = () => {
                             </div>
                         </form>
                     </div>
+                    <span className='fs-6 mt-5 text-center'><small>Already have an account? <Link to="/login">Login</Link></small></span>
                 </div>
                 <div className="footer-link mt-3 padding-top--24">
-                    <span>Already have an account? <Link to="/login">Login</Link></span>
                     <SocialLogin />
                     {/* <Toaster/> */}
                 </div>
