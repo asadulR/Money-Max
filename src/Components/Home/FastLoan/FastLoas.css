@@ -1,0 +1,38 @@
+.fast-title{
+    font-size: 2.3rem;
+    font-weight:800;
+    color: rgb(66, 65, 65);
+    max-width: 450px;
+}
+.badge-icon{
+    color: rgb(0, 183, 255);
+    width: 20px;
+    margin-right: 5px;
+}
+.para-area p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.apply-for-loans{
+    border: none;
+    transition: 1s;
+    width: 90%;
+    margin: 40px auto;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: linear-gradient(25deg, blue, salmon);
+}
+.apply-for-loans:hover{
+    background: linear-gradient(25deg, salmon, blue);
+}
+.bg-para{
+    background-color: #F5F7FA;
+    padding: 8px 12px;
+    margin-bottom: 0;
+}
+.max-w{
+    max-width: 450px;
+}

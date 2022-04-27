@@ -1,0 +1,45 @@
+.top-section {
+    background: linear-gradient(25deg, #F2FAFF, #FFFFFF);
+}
+
+
+.link-deco{
+    text-decoration: none;
+    color: white;
+}
+.link-deco:hover{
+    color: white;
+}
+.title{
+    color: #181E25;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.icon{
+    width: 30px;
+}
+
+.para{
+    font-size: 18px;
+    color: gray;
+    margin: 50px 0;
+}
+.apply-btn{
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 0.5s;
+    border: none;
+    padding: 15px 30px;
+    background-color: rgb(59, 59, 218);
+    border-radius: 8px;
+    border-left: 4px solid salmon;
+    border-right: 4px solid salmon;
+}
+
+.apply-btn:hover{
+    background-color: rgb(2, 2, 39);
+    color: white;
+    border-left: 2px solid salmon;
+    border-right: 2px solid salmon;
+    border-radius: 0;
+}
