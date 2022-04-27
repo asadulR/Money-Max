@@ -1,24 +1,41 @@
-.relative{
-   position: relative;
-}
 
-.jobs-page{
-    position: absolute;
-    top: 30%;
-    right: 44%;
-}
 .jobs-page h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .jobpage-link{
     text-decoration: none;
     margin: 0 10px;
-    color: white;
+    color: green;
 }
 .jobpage-link:hover{
-    color: white;
+    color: salmon;
 }
-.svg-img{
-    min-height: 200px;
-    width: auto;
+.gray{
+    color: gray;
+}
+.job-section{
+    background-color: #F7F9FA;
+}
+.single-job{
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+    box-shadow: 1px 1px 5px 1px lightgray;
+}
+.single-job:hover{
+    box-shadow: 3px 4px 5px 1px lightgray;
+}
+.small{
+    font-size: 20px;
+}
+.location-icon{
+    width: 16px;
+    margin-right: 5px;
+    color: gray;
+}
+
+
+.single-job{
+    max-width: 700px;
+    margin: 50px auto;
 }
