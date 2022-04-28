@@ -1,8 +1,12 @@
 import { BadgeCheckIcon } from '@heroicons/react/solid';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './FastLoas.css'
 const FastLoan = () => {
+    const navigate = useNavigate();
+    const applybuttonHandle = () => {
+        navigate('/loan')
+    }
     return (
         <section className='py-5'>
             <div className="container py-5">
@@ -16,7 +20,7 @@ const FastLoan = () => {
                         <p><BadgeCheckIcon className='badge-icon'></BadgeCheckIcon>15 MinuteOnline Application</p>
                         <p><BadgeCheckIcon className='badge-icon'></BadgeCheckIcon>Centrelink Considered*</p>
                         <p><BadgeCheckIcon className='badge-icon'></BadgeCheckIcon>Bad Credit Considered2</p>
-                        <button className='apply-for-loans mt-5'><Link className='link-deco' to='/'>Apply For Loans</Link></button>
+                        <button onClick={applybuttonHandle} className='apply-for-loans mt-5 text-white'>Apply For Loans</button>
                     </div>
                     <div className="col-12 col-md-3">
                         <p className='bg-para'>1.   Subject to verifcation, suitability and affordability</p>

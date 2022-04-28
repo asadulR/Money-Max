@@ -1,11 +1,19 @@
 
+import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import '../FormStyle.css';
 import SocialLogin from '../SocialLogin/SocialLogin';
 const Login = () => {
-   
+    const navigate = useNavigate();
+    let location = useLocation();
+    let from = location.state?.from?.pathname || "/";
 
+    // useEffect(() => {
+    //     if (user) {
+    //         navigate(from, { replace: true });
+    //     }
+    // }, [user])
     return (
         <div className='my-5 py-5'>
             <Helmet>
