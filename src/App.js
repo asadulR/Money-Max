@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Shared/Footer/Footer';
 import LoanApply from './Components/LoanApply/LoanApply';
 import RequireAuth from './Components/Auth/RequireAuth';
+import Page404 from './Components/Page404/Page404';
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
         }></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/signup' element={<Signup />}></Route>
+        <Route path='*' element={<Page404/>}></Route>
       </Routes>
       <Footer />
     </>
