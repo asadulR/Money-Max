@@ -1,8 +1,10 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import './LoanApply.css'
 const LoanApply = () => {
     return (
         <section className='loan-form-section'>
+            <Helmet> <title>Loan - Money Max</title></Helmet>
             <div className='container'>
                 <form className="row g-3 apply-form">
                     <div className="col-md-6">

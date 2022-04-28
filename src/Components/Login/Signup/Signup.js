@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 import '../FormStyle.css';
@@ -7,6 +8,7 @@ const Signup = () => {
    
     return (
         <div className='my-5 py-5'>
+            <Helmet><title>Signup - Money Max</title></Helmet>
             <div className="formbg-outer">
                 <div className="formbg p-5">
                     <div className="formbg-inner padding-horizontal--48">

@@ -3,6 +3,7 @@ import SingleJob from './SingleJob';
 import './Job.css';
 import { Link } from 'react-router-dom';
 import Loading from '../../Shared/Loading/Loading';
+import { Helmet } from 'react-helmet-async';
 const Job = () => {
     const [jobs, setJob] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -19,6 +20,7 @@ const Job = () => {
 
     return (
         <section className='job-section'>
+            <Helmet><title>Jobs - Money Max</title></Helmet>
             <div className='py-5'>
                 <div className='jobs-page py-2'>
                     <h2 className='text-center text-success fw-bold'>Job Posts</h2>
