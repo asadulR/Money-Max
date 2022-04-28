@@ -106,7 +106,13 @@
 
 
 
-
+.chooseus-section{
+    background-color: #10121C;
+    background-image: url(../../Assets/images/card/line-shape.png);
+    background-repeat: no-repeat;
+    background-position:50% 45%;
+    background-size:40%;
+}
 
 
 
@@ -123,5 +129,9 @@
 @media only screen and (max-width:700px){
     .card-title{
         font-size: 2.5em;
+    }
+
+    .chooseus-section{
+        background-size: 0%;
     }
 }

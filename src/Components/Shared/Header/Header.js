@@ -12,7 +12,7 @@ const Header = () => {
         signOut(auth);
     }
     return (
-        <div className='sticky-top'>
+        <div className='sticky-top shadow-sm'>
             <Navbar collapseOnSelect expand="lg" bg="light" className='py-3' variant="light">
                 <Container>
                     <Navbar.Brand as={Link} className='fw-bold text-primary' to="/">Money Max</Navbar.Brand>
@@ -21,6 +21,7 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link className='font-bold' as={CustomLink} to="/">HOME</Nav.Link>
                             <Nav.Link className='font-bold' as={CustomLink} to="/cards">CARDS</Nav.Link>
+                            <Nav.Link className='font-bold' as={CustomLink} to="/loan">LOAN</Nav.Link>
                             <NavDropdown className='font-bold' title="JOB PAGES" id="collasible-nav-dropdown">
                                 <NavDropdown.Item className='font-bold' as={CustomLink} to="/job">JOBS</NavDropdown.Item>
                                 <NavDropdown.Item className='font-bold' href="#action/3.2">Another action</NavDropdown.Item>

@@ -1,0 +1,34 @@
+.apply-form{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+}
+
+.loan-form-section{
+    padding: 100px 0;
+    background-color: #F7F9FA;
+}
+.gray {
+    color: gray;
+}
+/* .select-option:focus .select-option{
+    border: 0;
+    outline: 0;
+} */
+
+.apply-form-btn{
+    padding: 5px 50px;
+    background: linear-gradient(23deg, navy, lightcyan);
+    border: 0;
+    outline: 0;
+    transition: 1s;
+    font-size: 2rem;
+    border-radius: 6px;
+}
+
+.apply-form-btn:hover{
+    background: linear-gradient(23deg, lightcyan, navy);
+    transform: scale(1.08);
+}
